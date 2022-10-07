@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
-conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *Ownerku Ada yang memanggil anda ehe ehe:V*`, m)
+conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *My owner, someone is calling you ehe ehe:V*`, m)
 
     let a = "https://telegra.ph/file/a43304aef3ca1c97511fd.jpg"
   conn.sendStimg(m.chat, a, m, {packname: "", author: data.clg2, 
@@ -18,13 +18,13 @@ conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *Ownerku Ada yang memanggil an
   })
     
   /*conn.reply(m.chat, `
-Ngapain lu manggil owner ku dek?
-kalau mau sewa chat pribadi aja
-Gak usah Malu-malu
+Why did you call my owner deck?
+if you want to rent a private chat
+Don't be shy
 `.trim(), m)
     let mentionedJid = [m.sender]*/
 }
-handler.customPrefix = /@62895336282144 |@62895336282144/i
+handler.customPrefix = /@94726083178 |@94726083178/i
 handler.command = new RegExp
 
 module.exports = handler
