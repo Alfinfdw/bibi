@@ -1,15 +1,15 @@
 let handler = async (m, { conn, usedPrefix }) => conn.sendButton(m.chat, `
-╭─「 Donasi • Dana 」
-│ • Tri [0895336282144]
-│ • Gopay  [0895336282144]
-│ • Dana  [0895336282144]
-│ • Saweria  [https://saweria.co/thesadboy01]
+╭─「 Donate 」
+│ • 
+│ • 
+│ •
+│ • 
 ╰────
 ╭─「 *NOTE* 」
-│ > Ingin donasi? Wa.me/62895336282144
-│ _Hasil donasi akan digunakan buat sewa_
-│ _atau beli *RDP/VPS* agar bot bisa jalan_
-│ _24jam tanpa kendala_
+│ > Want to donate? Wa.me/94726083178
+│ _The proceeds from the donation will be used for rent_
+│ _or buy *RDP/VPS* so bots can run_
+│ _24 hours without problems_
 ╰────
 `.trim(), wm, 'Menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
 handler.help = ['donasi']
