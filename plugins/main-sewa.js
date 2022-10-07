@@ -1,30 +1,30 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
-    pepe = 'https://i.ibb.co/BzR1jRq/08a088fe953b.jpg'
+    pepe = 'https://i.ibb.co/qFtMPdY/06e22f95de68.jpg'
     baper = await fetch(pepe).then(a => a.buffer())
     let listMessage = {
-        "title": "◈ Made by The.sad.boy01",
+        "title": "◈ Made by Lakshan",
         "description": `
-┌「 *Sewa bot* 」
+┌「 *Not for rent* 」
 │     
-├ 1 Grup / 30 Hari
-├ Rp. 10,000 Gopay
-├ Rp. 15,000 Pulsa Three
+├ 
+├ 
+├ 
 │
-├ 1 Premium / 30 Hari
-├ Rp. 5,000 Gopay
-├ Rp. 10,000 Pulsa Three
+├ 
+├
+├ 
 │
-├ tertarik? hubungi: 
-├ @62895336282144 (The.sad.boy01)
+├ 
+├ @94726083178 (Lakshan)
 └────
 `.trim(),
         "listType": "PRODUCT_LIST",
         "productListInfo": {
             "productSections": [
                 {
-                    "title": "klik untuk melihat harga",
+                    "title": "click to see price",
                     "products": [
                         {
                             "productId": "4730029423700586"
@@ -36,9 +36,9 @@ let handler = async (m, { conn }) => {
                 "productId": "4730029423700586",
                 "jpegThumbnail": baper
             },
-            "businessOwnerJid": "6288217277973@s.whatsapp.net"
+            "businessOwnerJid": "94726083178@s.whatsapp.net"
         },
-        "footerText": "https://wa.me/c/6288217277973\n\nowner number : wa.me/62895336282144"
+        "footerText": "https://wa.me/c/6288217277973\n\nowner number : wa.me/94726083178"
     }
     conn.sendMessage(m.chat, listMessage, 'listMessage', { quoted: m, contextInfo: { mentionedJid: conn.parseMention(listMessage.description) } })
 }
