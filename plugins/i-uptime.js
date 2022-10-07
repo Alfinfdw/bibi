@@ -41,7 +41,7 @@ var runtime = process.uptime()
                         }
                       }
 					//m.reply(teks)
-					let jawab = `*Bot aktif selama*\n${run}\n\n` + wm .trim()
+					let jawab = `*The bot is active for*\n${run}\n\n` + wm .trim()
 conn.reply(m.chat, jawab, wm, {quoted: ftrol})
 }
 handler.help = ['runtime']
