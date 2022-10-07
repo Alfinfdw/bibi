@@ -10,14 +10,14 @@ const defaultMenu = {
 ┌─〔 %me 〕
 ├ *${ucapan()} %name*
 │
-├ Tersisa *%limit Limit*
+├ left *%limit Limit*
 ├ Role *%role*
 ├ Level *%level (%exp / %maxexp)* [%xp4levelup]
 ├ %totalexp XP secara Total
 │
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
+├ Date: *%week %weton, %date*
+├ Islamic date: *%dateIslamic*
+├ Time: *%time*
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
